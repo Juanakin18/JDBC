@@ -23,12 +23,12 @@ public class VehicleTypeAssembler {
 		return null;
 	}
 
-	public static VehicleTypeDALDto toDALDto(uo.ri.cws.application.business.vehicletype.VehicleTypeService.VehicleTypeBLDto dto) {
+	public static VehicleTypeDALDto toDALDto(VehicleTypeBLDto dto) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	public static List<uo.ri.cws.application.business.vehicletype.VehicleTypeService.VehicleTypeBLDto> toBLDtolist(Optional<VehicleTypeDALDto> findById) {
+	public static List<VehicleTypeBLDto> toBLDtolist(Optional<VehicleTypeDALDto> findById) {
 		// TODO Auto-generated method stub
 		return null;
 	}

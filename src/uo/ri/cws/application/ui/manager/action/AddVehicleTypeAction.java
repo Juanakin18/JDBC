@@ -14,7 +14,7 @@ public class AddVehicleTypeAction implements Action {
 		double name = Console.readDouble("price"); 
 		
 		
-		uo.ri.cws.application.business.vehicletype.VehicleTypeService.VehicleTypeBLDto dto = new uo.ri.cws.application.business.vehicletype.VehicleTypeService.VehicleTypeBLDto();
+		VehicleTypeService.VehicleTypeBLDto dto = new VehicleTypeService.VehicleTypeBLDto();
 		dto.name=dni;
 		dto.pricePerHour=name;
 		

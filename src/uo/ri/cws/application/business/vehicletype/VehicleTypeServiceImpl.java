@@ -12,7 +12,7 @@ public class VehicleTypeServiceImpl implements VehicleTypeService {
 
 	private CommandExecutor exe = new CommandExecutor();
 	@Override
-	public void addVehicleType(uo.ri.cws.application.business.vehicletype.VehicleTypeService.VehicleTypeBLDto dto) throws BusinessException {
+	public void addVehicleType(VehicleTypeBLDto dto) throws BusinessException {
 		exe.execute(new AddVehicleType(dto));
 		
 	}
@@ -24,7 +24,7 @@ public class VehicleTypeServiceImpl implements VehicleTypeService {
 	}
 
 	@Override
-	public List<uo.ri.cws.application.business.vehicletype.VehicleTypeService.VehicleTypeBLDto> findById(String dni) throws BusinessException {
+	public List<VehicleTypeBLDto> findById(String dni) throws BusinessException {
 		return exe.execute(new FindVHId(dni));
 		
 	}

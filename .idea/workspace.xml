@@ -1,11 +1,264 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37f878e4-32ba-475d-a9eb-b0ea21869d54" name="Changes" comment="" />
+    <list default="true" id="37f878e4-32ba-475d-a9eb-b0ea21869d54" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Jdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/configuration1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/1.startup.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/1.startup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/2.runManagerSwing.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/2.runManagerSwing.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/3.reset.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/4.setLegacy.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/hsqldb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/server.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/test.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/test.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/test.script" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/test.script.bck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/test.script.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/Jdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/VehicleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/VehicleTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/conf/OrdersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/conf/ProvidersCrudService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/conf/SparePartCrudService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/conf/SparePartReportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/conf/SuppliesCrudService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/Jdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/BusinessFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/ContractServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/ProvidersCrudServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/SparePartCrudServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/SparePartReportServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/SuppliesCrudServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/client/ClientHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/client/ClientHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/client/ClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/client/ClientServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/client/crudcommands/AddClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/client/crudcommands/DeleteClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/client/crudcommands/FindAllClients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/client/crudcommands/FindClientsById.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/client/crudcommands/UpdateClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/contract/ContractService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/contracttype/ContractTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/contracttype/ContractTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/contracttype/crudcommands/AddContractType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/contracttype/crudcommands/DeleteContractType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/contracttype/crudcommands/FindAllContractTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/contracttype/crudcommands/FindContractTypeByName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/contracttype/crudcommands/FindMechanicByContractType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/contracttype/crudcommands/UpdateContractType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/ChargeAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/InvoiceState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/InvoicingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/InvoicingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/SettleInvoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/SettleInvoiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/SettleInvoiceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/VehicleAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/assembler/InvoicingAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/assembler/WorkOrderForInvoicingBLDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/crud/commands/CreateInvoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/crud/commands/FindInvoiceByNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/crud/commands/FindNotInvoicedWorkOrders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/crud/commands/FindNotInvoicedWorkOrdersByClientDni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/crud/commands/FindPayMeansByClientDni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/crud/commands/FindWorkOrdersByClientDni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/crud/commands/FindWorkOrdersByPlateNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/crud/commands/InterventionAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/crud/commands/InterventionBLDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/crud/commands/SparePartAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/crud/commands/SparePartBLDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/crud/commands/SparePartDALDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/crud/commands/SubstitutionAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/crud/commands/SubstitutionBLDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/crud/commands/SubstitutionDALDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/crud/commands/SubstitutionGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/crud/commands/VehicleTypeAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/crud/commands/VehicleTypeDALDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/invoice/crud/commands/VehicleTypeGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/mechanic/MechanicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/mechanic/assembler/MechanicAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/mechanic/crud/commands/AddMechanic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/mechanic/crud/commands/DeleteMechanic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/mechanic/crud/commands/FindAllMechanics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/mechanic/crud/commands/FindMechanicByDni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/mechanic/crud/commands/FindMechanicInProfessionalGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/mechanic/crud/commands/FindMechanicsInForce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/mechanic/crud/commands/FindMechanicsWithContractInForceInContractType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/mechanic/crud/commands/MechanicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/mechanic/crud/commands/UpdateMechanic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/paymentmean/PaymentMeanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/paymentmean/VoucherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/paymentmean/voucher/VoucherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/payroll/ContractAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/payroll/PayrollService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/payroll/PayrollServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/payroll/ProfessionalGroupAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/payroll/crudcommands/DeleteLastPayrollFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/payroll/crudcommands/DeleteLastPayrolls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/payroll/crudcommands/GenerateLastMonthPayrolls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/payroll/crudcommands/GeneratePayrolls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/payroll/crudcommands/GetAllPayrolls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/payroll/crudcommands/GetAllPayrollsForMechanic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/payroll/crudcommands/GetAllPayrollsForProfessionalGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/payroll/crudcommands/GetPayrollDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/professionalgroup/ProfessionalGroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/sparepart/SparePartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/sparepart/SparePartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/sparepart/crudcommands/AddSparePart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/sparepart/crudcommands/DeleteSparePart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/sparepart/crudcommands/UpdateSparePart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/util/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/util/command/CommandExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/vehicle/VehicleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/vehicle/VehicleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/vehicle/crudcommands/FindByClientDNI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/vehicle/crudcommands/FindByMake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/vehicle/crudcommands/FindByPlate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/vehicle/crudcommands/FindVHId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/vehicle/crudcommands/UpdateVH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/vehicletype/VehicleTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/vehicletype/VehicleTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/vehicletype/crudcommands/AddVehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/vehicletype/crudcommands/DeleteVehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/workorder/WorkOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/workorder/WorkOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/workorder/crudcommands/AddWorkOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/workorder/crudcommands/DeleteWorkOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/workorder/crudcommands/FindAllWorkOrders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/workorder/crudcommands/FindWorkOrdersByPlateNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/workorder/crudcommands/FindWorkOrdersByVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/business/workorder/crudcommands/UpdateWorkOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/ChargeGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/ChargeGatewayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/ChargheAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/ContractDALDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/ContractGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/ContractGatewayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/Gateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/InterventionBLDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/InterventionDALDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/InterventionGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/InterventionGatewayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/PaymentMeanAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/PaymentMeanGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/PaymentMeanGatewayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/PersistenceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/PersistenceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/ProfessionalGroupDALDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/ProfessionalGroupGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/ProfessionalGroupGatewayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/SparePartGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/SparePartGatewayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/SubstitutionGatewayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/VehicleGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/VehicleGatewayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/VehicleTypeGatewayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/client/ClientAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/client/ClientGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/client/ClientGatewayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/contracttype/ContractTypeAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/contracttype/ContractTypeDALDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/contracttype/ContractTypeGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/contracttype/ContractTypeGatewayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/invoice/InvoiceGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/invoice/InvoiceGatewayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/mechanic/MechanicGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/mechanic/assembler/MechanicAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/mechanic/impl/MechanicGatewayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/payroll/PayrollAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/payroll/PayrollDALDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/payroll/PayrollGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/payroll/PayrollGatewayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/util/Conf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/vehicle/assembler/VehicleAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/workorder/WorkOrderGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/workorder/assembler/ClientDALDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/workorder/assembler/WorkOrderAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/persistence/workorder/impl/WorkOrderGatewayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/service/invoice/ClientBLDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/service/invoice/InvoiceState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/service/payroll/ContractBLDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/service/payroll/ContractUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/service/payroll/PayrollBLDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/service/payroll/PayrollSummaryBLDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/service/util/FindMechanicById.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/service/util/VehicleDALDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/service/util/sql/VehicleBLDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/service/util/sql/VehicleDALDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/service/util/sql/WorkOrderBLDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/cashier/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/cashier/action/FindNotInvoicedWorOrdersByPlateAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/cashier/action/FindNotInvoicedWorkOrdersAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/cashier/action/SettleInvoiceAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/cashier/action/WorkOrdersBillingAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/foreman/ClientHistorMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/foreman/ClientMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/foreman/ClientReceptionMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/foreman/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/foreman/VehicleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/foreman/action/AddCustomerAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/foreman/action/AddWorkOrderAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/foreman/action/DeleteCustomerAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/foreman/action/ListCustomerAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/foreman/action/UpdateCustomerAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/foreman/action/UpdateWorkOrderAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/MechanicMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/PayrollMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/VehicleTypeBLDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/VehicleTypeMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/AddCTAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/AddMechanicAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/AddSparePartAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/AddVehicleTypeAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/ContractTypeMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/DeleteMechanicAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/DeletePayrollsAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/DeletePayrollsMonthAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/DeleteSparePartAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/DeleteVehicleTypeAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/FindAllMechanicsAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/FindAllMechanicsInForceAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/FindMechanicAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/GeneratePayrollsAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/ListCTAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/ListSparePartAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/ListVehicleTypeAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/RemoveCTAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/ShowPayrollsAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/SparePartMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/UpdateCTAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/UpdateMechanicAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/UpdateSparePartAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/manager/action/UpdateVehicleTypeAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/mechanic/AddSparePartToRepairAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/mechanic/CloseWorkOrderAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/mechanic/DeleteSparePartFromRepairAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/mechanic/ListWorkOrderAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/mechanic/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uo/ri/cws/application/ui/util/Printer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2QnLifxVgyKar3duUeLYqC5zEWE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -18,9 +271,22 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/juani/OneDrive/Escritorio/JDBC",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\juani\OneDrive\Escritorio\JDBC" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\juani\OneDrive\Escritorio\JDBC" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -29,7 +295,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685984527434</updated>
+      <workItem from="1685984528515" duration="360000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
